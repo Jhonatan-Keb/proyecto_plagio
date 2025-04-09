@@ -8,62 +8,70 @@ Sistema de detección de plagio que utiliza **n-gramas**, **tablas hash**, **Blo
 ---
 
 ## Características Principales
+
 ✅ **Generación automática** de 100+ documentos sintéticos con frases coherentes.  
 ✅ **Tokenización** en tri-gramas para análisis contextual.  
 ✅ **Hashing personalizado** para almacenamiento eficiente de n-gramas.  
 ✅ **Bloom Filters** para reducir consumo de memoria.  
 ✅ **Similitud de Jaccard** para comparar documentos.  
 ✅ **Merge Sort** para clasificar resultados.  
-✅ **Visualización** de redes de similitud con grafos.  
+✅ **Visualización** de redes de similitud con grafos.
 
 ---
 
 ## Equipo
+
 Jhonatan Alejandro Keb Baak
+
 Luis Andrés Illescas Aguilar
+
 Joseph Jesus Aguilar Rodriguez
+
 Pedro Joel Diaz Lopez
 
 ---
 
 ## Estructura del Proyecto
+
 detector-plagio/
 
-├── documentos/          # Documentos generados automáticamente
+├── documentos/ # Documentos generados automáticamente
 
-├── resultados/          # Grafos y reportes generados
+├── resultados/ # Grafos y reportes generados
 
-├── src/                 # Código fuente
+├── src/ # Código fuente
 
-│   ├── bloom_filter.py  # Implementación de Bloom Filter
+│ ├── bloom_filter.py # Implementación de Bloom Filter
 
-│   ├── hash_utils.py    # Función hash personalizada
+│ ├── hash_utils.py # Función hash personalizada
 
-│   ├── preprocessing.py # Limpieza y tokenización
+│ ├── preprocessing.py # Limpieza y tokenización
 
-│   ├── similarity.py    # Cálculo de similitud
+│ ├── similarity.py # Cálculo de similitud
 
-│   ├── sorting.py       # Merge Sort personalizado
+│ ├── sorting.py # Merge Sort personalizado
 
-│   └── visualization.py # Generación de grafos
+│ └── visualization.py # Generación de grafos
 
 ├── document_generator.py # Generador de documentos sintéticos
 
-├── main.py              # Punto de entrada
+├── main.py # Punto de entrada
 
-├── requirements.txt     # Dependencias
+├── requirements.txt # Dependencias
 
-└── README.md            # Este archivo
+└── README.md # Este archivo
 
 ---
 
 ## Requisitos
+
 - Python 3.8+
 - Dependencias: `matplotlib`, `networkx`, `mmh3`
 
 ---
 
 ## Instalación
+
 ```bash
 # Clonar repositorio
 git clone https://github.com/Jhonatan-Keb/proyecto_plagio.git
@@ -71,3 +79,7 @@ cd detector-plagio
 
 # Instalar dependencias
 pip install -r requirements.txt
+
+# Ejecutar mian.py
+python main.py
+```
