@@ -20,18 +20,31 @@ Sistema de detección de plagio que utiliza **n-gramas**, **tablas hash**, **Blo
 
 ## Estructura del Proyecto
 detector-plagio/
+
 ├── documentos/          # Documentos generados automáticamente
+
 ├── resultados/          # Grafos y reportes generados
+
 ├── src/                 # Código fuente
+
 │   ├── bloom_filter.py  # Implementación de Bloom Filter
+
 │   ├── hash_utils.py    # Función hash personalizada
+
 │   ├── preprocessing.py # Limpieza y tokenización
+
 │   ├── similarity.py    # Cálculo de similitud
+
 │   ├── sorting.py       # Merge Sort personalizado
+
 │   └── visualization.py # Generación de grafos
+
 ├── document_generator.py # Generador de documentos sintéticos
+
 ├── main.py              # Punto de entrada
+
 ├── requirements.txt     # Dependencias
+
 └── README.md            # Este archivo
 
 ---
@@ -45,7 +58,7 @@ detector-plagio/
 ## Instalación
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/detector-plagio.git
+git clone https://github.com/Jhonatan-Keb/proyecto_plagio.git
 cd detector-plagio
 
 # Instalar dependencias
