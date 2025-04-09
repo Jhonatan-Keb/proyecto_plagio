@@ -18,6 +18,14 @@ Sistema de detección de plagio que utiliza **n-gramas**, **tablas hash**, **Blo
 
 ---
 
+## Equipo
+Jhonatan Alejandro Keb Baak
+Luis Andrés Illescas Aguilar
+Joseph Jesus Aguilar Rodriguez
+Pedro Joel Diaz Lopez
+
+---
+
 ## Estructura del Proyecto
 detector-plagio/
 
